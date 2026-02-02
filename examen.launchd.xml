@@ -1,8 +1,0 @@
-<launch>
-    <copy file="examen.sumocfg" type="config"/>
-    <copy file="examen.net.xml"/>
-    <copy file="examen.rou.xml"/>
-    <copy file="examen.poly.xml"/>
-    <copy file="rsu.add.xml"/>
-    <copy file="antenna.png"/>
-</launch>
