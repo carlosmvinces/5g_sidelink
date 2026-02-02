@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="carro" vClass="passenger" color="0.8,0.8,0.8"/>
+
+    <route id="ruta_larga1" edges="337277970#1 337277970#2 337277951#0 337277951#1 337277951#2 337277951#3 337277951#4 337277951#5"/>
+    
+    <route id="ruta_transversal_A" edges="49217110#0 49217110#1 49217110#2 49217102 337277951#0 337277951#1 337277951#2 337277951#3"/>
+
+    <route id="ruta_transversal_B" edges="49217123 49217121 49217102 337277957#0 337277957#1 567060339#3"/>
+
+    <route id="ruta_periferica_C" edges="542428845#0 542428845#1 49217108#2 49217108#3 492471759#0 492471759#1"/>
+
+    <route id="ruta_periferica_D" edges="42143918#0 42143918#1 42143918#2 42143918#3 42143918#4 45429543#1"/>
+
+    <vehicle id="0" type="carro" depart="0.00" route="ruta_larga1"/>
+    <vehicle id="1" type="carro" depart="2.00" route="ruta_larga1"/>
+    <vehicle id="2" type="carro" depart="4.00" route="ruta_larga1"/>
+    <vehicle id="3" type="carro" depart="6.00" route="ruta_larga1"/>
+    <vehicle id="4" type="carro" depart="8.00" route="ruta_larga1"/>
+    <vehicle id="5" type="carro" depart="10.00" route="ruta_larga1"/>
+
+    <vehicle id="6" type="carro" depart="12.00" route="ruta_transversal_A"/>
+    <vehicle id="7" type="carro" depart="14.00" route="ruta_transversal_B"/>
+    <vehicle id="8" type="carro" depart="16.00" route="ruta_transversal_A"/>
+    <vehicle id="9" type="carro" depart="18.00" route="ruta_transversal_B"/>
+    <vehicle id="10" type="carro" depart="20.00" route="ruta_transversal_A"/>
+
+    <vehicle id="11" type="carro" depart="22.00" route="ruta_periferica_C"/>
+    <vehicle id="12" type="carro" depart="24.00" route="ruta_periferica_D"/>
+    <vehicle id="13" type="carro" depart="26.00" route="ruta_transversal_A"/>
+    <vehicle id="14" type="carro" depart="28.00" route="ruta_periferica_C"/>
+    <vehicle id="15" type="carro" depart="30.00" route="ruta_transversal_B"/>
+    
+    <flow id="flujo_transversal" begin="32" end="100" number="20" route="ruta_transversal_A" type="carro"/>
+    <flow id="flujo_periferico_1" begin="32" end="100" number="10" route="ruta_periferica_C" type="carro"/>
+    <flow id="flujo_periferico_2" begin="32" end="100" number="5" route="ruta_periferica_D" type="carro"/>
+
+</routes>
