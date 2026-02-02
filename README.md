@@ -6,23 +6,6 @@ La simulación integra movilidad vehicular realista, comunicación directa entre
 
 ---
 
-## Estructura del repositorio
-
-.
-├── omnet/
-│   ├── ned/                 # Definición del escenario y nodos OMNeT++
-│   ├── ini/                 # Archivo de configuración omnetpp.ini
-│   ├── apps/                # AlertSender, AlertReceiver, AlertRelay
-│   └── simulations/         # Archivos de simulación
-├── sumo/
-│   ├── net.xml              # Red vial
-│   ├── rou.xml              # Rutas vehiculares
-│   ├── poly.xml             # Elementos gráficos
-│   └── sumocfg              # Configuración de SUMO
-└── README.md
-
----
-
 ## Herramientas y versiones utilizadas
 
 - OMNeT++ 6.x
