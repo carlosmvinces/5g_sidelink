@@ -47,6 +47,3 @@ Estas métricas permiten evaluar la confiabilidad y la latencia del sistema NR S
 
 ---
 
-## Uso académico
-
-Este proyecto fue desarrollado con fines académicos. El código y los archivos de configuración pueden ser utilizados y modificados para propósitos educativos y de investigación, citando adecuadamente a los autores y a los frameworks empleados.
